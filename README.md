@@ -7,12 +7,12 @@
 - 發 Pull Request
 - 發 Issues 表示想長期加入此翻譯計畫，直接加入此 Repo 的貢獻者之一。
 
-## 工具使用說明
-此 Repo 包含了一個工具
-- iconv.py: 從 zh_TW.po (Big-5) 產生出 zh_TW.UTF-8.po (UTF-8)
+## 翻譯原則
+**翻譯時請翻譯 zh_TW.UTF-8.po 檔案，翻譯完後再使用 iconv.py 生成
+zh_TW.po (Big5) 檔案！**
 
 每次翻譯完之後，請輸入下述的指令，以保證 
-zh_TW.po 的翻譯與 zh_TW.UTF-8.po 的翻譯相同。
+zh_TW.UTF-8.po 的翻譯與 zh_TW.po 的翻譯相同。
 
 ```
 $ python3 iconv.py
